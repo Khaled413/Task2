@@ -1,0 +1,13 @@
+SELECT *
+FROM customers
+WHERE contactFirstName REGEXP "^[jl]e";
+
+
+SELECT *
+FROM customers
+WHERE contactFirstName REGEXP "el$|le";
+
+
+SELECT *
+FROM customers
+WHERE contactFirstName REGEXP "b[ga]";
